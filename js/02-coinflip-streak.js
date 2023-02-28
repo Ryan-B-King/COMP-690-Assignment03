@@ -1,5 +1,7 @@
+// Variable declared. No value will be given.
 let coinFlip;
 
+// Program will run automatically until a TAILS result happens.  Then, prorgram ends. Each result will display in console.
 do {
 
     coinFlip = Math.round(Math.random());
@@ -11,7 +13,7 @@ do {
     }else{
         console.log('An error has occurred.');
     };
-}
+};
 while (coinFlip === 0);
 
 

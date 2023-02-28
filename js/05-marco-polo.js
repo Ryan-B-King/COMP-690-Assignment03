@@ -1,9 +1,13 @@
+// Variable declared.  Starting value at 0.
 let marcoPolo = 0;
 
+// FOR LOOP will do 100 iterations.
 for (let i = 0; i < 100; i++ ){
 
+    // 'marcoPolo' will increase by 1 per iteration.
     marcoPolo += 1;
 
+    // IF STATEMENT will determine the value output based on the 3 main conditional.
     if(marcoPolo % 3 === 0 && marcoPolo % 5 === 0){
         console.log('Marco! Polo!');
     }else if(marcoPolo % 5 === 0){

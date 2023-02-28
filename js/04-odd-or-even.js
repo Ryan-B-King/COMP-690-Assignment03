@@ -1,5 +1,7 @@
+// Variable declared.  No Value.
 let modResult;
 
+// FOR LOOP will run 15 iterations.  Each time it will determine if the 'modResult' value is odd or even.  Result will display in console.
 for(let i = 0; i <= 15; i++){
 
     modResult = i % 2; 
@@ -10,9 +12,9 @@ for(let i = 0; i <= 15; i++){
         console.log(i + ' is odd.');
     }else{
         console.log('An error has occurred.');
-    }
+    };
 
-}
+};
 
 
 

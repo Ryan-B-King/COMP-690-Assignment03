@@ -1,8 +1,13 @@
+// Variable declared.  User value stored for coinFlip.
 let coinFlip = parseInt(prompt('Enter # of flips desired:'));
 
+
+// If statement will first check if coinFlip value is a valid number.
 if (isNaN(coinFlip)){
     alert('That is not a valid #.  Try again.');
 } else {
+
+    // Once validated, the FOR LOOP will determine each flip result to be HEADS or TAILS.  Then, display the results in the console.
     for (coinFlip; coinFlip > 0; coinFlip--) {
         let result = Math.round(Math.random());
     
